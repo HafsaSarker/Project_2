@@ -5,14 +5,17 @@ import Card from './components/Card'
 import './App.css'
 
 function App() {
+  const [isNotFlipped, setIsNotFlip] = useState(false);
   const [question, setQuestion] = useState(studySet[0].question);
   const [answer, setAnswer] = useState(studySet[0].answer)
+
   const showRandomCard = () =>{
     const randNum = Math.floor(Math.random() * studySet.length);
 
     setQuestion(studySet[randNum].question);
     setAnswer(studySet[randNum].answer);
   }
+  
   return (
     <div className="App">
       <header>

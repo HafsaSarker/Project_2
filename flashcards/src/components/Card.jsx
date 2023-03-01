@@ -1,6 +1,6 @@
 import { useState } from "react";
 const Card = (props) => {    
-    const [isNotFlipped, setIsNotFlip] = useState(false);
+    const [isNotFlipped, setIsNotFlip] = useState(true);
     const showBack = () => {
         setIsNotFlip(prevState => !prevState);
     }
@@ -11,7 +11,7 @@ const Card = (props) => {
                 <img src={`${props.question}.png`} />
             </div>
             <div className="back">
-                <h1>{isNotFlipped ? props.answer : ""}</h1>
+                <h1>{isNotFlipped ? "" : props.answer}</h1>
             </div>
         </div>
     )

@@ -20,7 +20,7 @@ export default [
         answer: "une banane"
     },
     {
-        question: "green beans",
+        question: "green-beans",
         answer: "des haricots verts"
     },
     {
@@ -56,19 +56,19 @@ export default [
         answer: "un ananas"
     },
     {
-        question: "le lait",
-        answer: "milk"
+        question: "milk",
+        answer: "le lait"
     },
     {
-        question: "le thé",
-        answer: "tea"
+        question: "tea",
+        answer: "le thé"
     },
     {
         question: "cake",
         answer: "un gâteau"
     },
     {
-        question: "hot chocolate",
+        question: "hot-chocolate",
         answer: "un chocolat"
     },
     {
@@ -76,7 +76,7 @@ export default [
         answer: "une tarte"
     },
     {
-        question: "ice cream",
+        question: "ice-cream",
         answer: "une glace"
     },
     {
@@ -94,10 +94,5 @@ export default [
     {
         question: "egg",
         answer: "un oeuf"
-    },
-    {
-        question: "hot chocolate",
-        answer: "un chocolat"
     }
-
 ]

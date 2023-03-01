@@ -11,5 +11,4 @@ export default [
         question: "chicken",
         answer: "le poulet"
     }
-
 ]

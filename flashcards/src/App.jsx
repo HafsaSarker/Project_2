@@ -20,7 +20,6 @@ function App() {
         <h3>How much of these food terms in French do you know? Except for "baguette" and "croissant"? Let's put your knowledge on the test</h3>
         <h4>Number of Cards: 30</h4>
       </header>
-      {/* {setMap} */}
       <Card 
         question = {question}
         answer = {answer}

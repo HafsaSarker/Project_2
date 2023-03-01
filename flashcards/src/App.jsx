@@ -5,7 +5,7 @@ import Card from './components/Card'
 import './App.css'
 
 function App() {
-  const [isNotFlipped, setIsNotFlip] = useState(false);
+  const [isNotFlipped, setIsNotFlip] = useState(true);
   const [question, setQuestion] = useState(studySet[0].question);
   const [answer, setAnswer] = useState(studySet[0].answer)
 
@@ -14,6 +14,11 @@ function App() {
 
     setQuestion(studySet[randNum].question);
     setAnswer(studySet[randNum].answer);
+    setIsNotFlip(true);
+  }
+
+  const showBack = () => {
+      setIsNotFlip(prevState => !prevState);
   }
   
   return (
@@ -23,10 +28,14 @@ function App() {
         <h3>How much of these food terms in French do you know? Except for "baguette" and "croissant"? Let's put your knowledge on the test</h3>
         <h4>Number of Cards: 24</h4>
       </header>
-      <Card 
-        question = {question}
-        answer = {answer}
-      />
+
+      <div className="card-component" onClick={showBack}>
+        <Card 
+          question = {question}
+          answer = {isNotFlipped ? " " : answer}
+        />
+      </div>
+     
       <div className="btn-container">
         <button onClick={showRandomCard}  ><span><AiOutlineArrowLeft /></span>
         </button>

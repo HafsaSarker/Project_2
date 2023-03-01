@@ -1,17 +1,14 @@
 import { useState } from "react";
 const Card = (props) => {    
-    const [isNotFlipped, setIsNotFlip] = useState(true);
-    const showBack = () => {
-        setIsNotFlip(prevState => !prevState);
-    }
+
     return(
-        <div className="card-container" onClick={showBack} >
+        <div className="card-container">
                 <div className="front">
                 <h1>{props.question}</h1>
                 <img src={`${props.question}.png`} />
             </div>
             <div className="back">
-                <h1>{isNotFlipped ? "" : props.answer}</h1>
+                <h1>{props.answer}</h1>
             </div>
         </div>
     )

@@ -1,98 +1,123 @@
 export default [
     {
         question: "meat",
-        answer: "la viande"
+        answer: "la viande",
+        categColor: "blue"
     },
     {
         question: "ham",
-        answer: "le jambon"
+        answer: "le jambon",
+        categColor: "blue"
     },
     {
         question: "chicken",
-        answer: "le poulet"
+        answer: "le poulet",
+        categColor: "blue"
     },
     {
         question: "fish",
-        answer: "le poisson"
+        answer: "le poisson",
+        categColor: "green"
     },
     {
         question: "banana",
-        answer: "une banane"
+        answer: "une banane",
+        categColor: "yellow"
     },
     {
         question: "green-beans",
-        answer: "des haricots verts"
+        answer: "des haricots verts",
+        categColor: "purple"
     },
     {
         question: "peas",
-        answer: "des petits pois"
+        answer: "des petits pois",
+        categColor: "purple"
     },
     {
         question: "potato",
-        answer: "une pomme de terre"
+        answer: "une pomme de terre",
+        categColor: "purple"
     },
     {
         question: "mushroom",
-        answer: "un champignon"
+        answer: "un champignon",
+        categColor: "purple"
     },
     {
         question: "pear",
-        answer: "une poire"
+        answer: "une poire",
+        categColor: "yellow"
     },
     {
         question: "onion",
-        answer: "un oignon"
+        answer: "un oignon",
+        categColor: "purple"
     },
     {
         question: "strawberry",
-        answer: "une fraise"
+        answer: "une fraise",
+        categColor: "yellow"
     },
     {
         question: "cherry",
-        answer: "une cerise"
+        answer: "une cerise",
+        categColor: "yellow"
     },
     {
         question: "pineapple",
-        answer: "un ananas"
+        answer: "un ananas",
+        categColor: "yellow"
     },
     {
         question: "milk",
-        answer: "le lait"
+        answer: "le lait",
+        categColor: "brown"
     },
     {
         question: "tea",
-        answer: "le thé"
+        answer: "le thé",
+        categColor: "dark-green"
+
     },
     {
         question: "cake",
-        answer: "un gâteau"
+        answer: "un gâteau",
+        categColor: "gray"
     },
     {
         question: "hot-chocolate",
-        answer: "un chocolat"
+        answer: "un chocolat",
+        categColor: "brown"
     },
     {
         question: "pie",
-        answer: "une tarte"
+        answer: "une tarte",
+        categColor: "gray"
     },
     {
         question: "ice-cream",
-        answer: "une glace"
+        answer: "une glace",
+        categColor: "brown"
     },
     {
         question: "butter",
-        answer: "le beurre"
+        answer: "le beurre",
+        categColor: "brown"
     },
     {
         question: "bread",
-        answer: "le pain"
+        answer: "le pain",
+        categColor: "gray"
     },
     {
         question: "cheese",
-        answer: "le fromage"
+        answer: "le fromage",
+        categColor: "brown"
     },
     {
         question: "egg",
-        answer: "un oeuf"
+        answer: "un oeuf",
+        categColor: "orange"
     }
 ]

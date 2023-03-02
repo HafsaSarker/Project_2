@@ -8,12 +8,13 @@ function App() {
   const [isNotFlipped, setIsNotFlip] = useState(true);
   const [question, setQuestion] = useState(studySet[0].question);
   const [answer, setAnswer] = useState(studySet[0].answer)
-
+  const [categColor, setcategColor] = useState('blue');
   const showRandomCard = () =>{
     const randNum = Math.floor(Math.random() * studySet.length);
 
     setQuestion(studySet[randNum].question);
     setAnswer(studySet[randNum].answer);
+    setcategColor(studySet[randNum].categColor);
     setIsNotFlip(true);
   }
 
@@ -32,6 +33,7 @@ function App() {
       <div className="card-component" onClick={showBack}>
         <Card 
           img = {question}
+          categColor = {categColor}
           cardText = {isNotFlipped ? question : answer}
         />
       </div>

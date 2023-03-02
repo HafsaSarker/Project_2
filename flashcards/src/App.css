@@ -11,31 +11,12 @@
   align-items: center;
 }
 
-.card-container > img {
+.food-img {
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
-.card-container {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: solid gainsboro 2px;
-  border-radius: 5px;
-  height: 400px;
-  width: 500px;
-  cursor: pointer;
-  perspective: 1000px;
-  background-color: transparent;
-  transition: transform 0.4s;
-  transform-style: preserve-3d;
-}
-.card-container:active {
-  transform: rotateX(180deg);
-  transform: rotateY(180deg);
-}
+
 
 .btn-container{
   margin-top: 10px;

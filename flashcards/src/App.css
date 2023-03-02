@@ -10,12 +10,12 @@
   justify-content: center;
   align-items: center;
 }
-.card-container > .front > img {
+
+.card-container > img {
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
-
 .card-container {
   margin-top: 40px;
   display: flex;
@@ -27,7 +27,16 @@
   height: 400px;
   width: 500px;
   cursor: pointer;
+  perspective: 1000px;
+  background-color: transparent;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
 }
+.card-container:active {
+  transform: rotateX(180deg);
+  transform: rotateY(180deg);
+}
+
 .btn-container{
   margin-top: 10px;
   display: flex;

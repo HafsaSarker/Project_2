@@ -20,7 +20,7 @@ function App() {
   const showBack = () => {
       setIsNotFlip(prevState => !prevState);
   }
-  
+
   return (
     <div className="App">
       <header>
@@ -31,8 +31,8 @@ function App() {
 
       <div className="card-component" onClick={showBack}>
         <Card 
-          question = {question}
-          answer = {isNotFlipped ? " " : answer}
+          img = {question}
+          cardText = {isNotFlipped ? question : answer}
         />
       </div>
      

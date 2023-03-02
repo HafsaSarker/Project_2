@@ -19,8 +19,8 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [X] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [X] Cards have different visual styles such as color based on their category
+  - [X] *based on food category (such as meat, fruits, dairy),the border color of the flashcard changes*
 
 The following **additional** features are implemented:
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='Project2Demo.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
+<img src='flashcards\public\Project2Demo.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
 
 GIF created with LiceCAP

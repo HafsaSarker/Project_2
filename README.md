@@ -2,50 +2,46 @@
 
 Submitted by: **Hafsa Sarker**
 
-This web app: **insert description**
+This web app: **Is a study tool to help people learn food items in French with their respective indefinite/definite articles.**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [ ] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [ ] **A list of card pairs is created**
-- [ ] **Clicking on the card shows the corresponding component of the information pair**
-- [ ] **Clicking the next button displays a random new card**
+- [X] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
+- [X] **A single card at a time is displayed, only showing one of the components of the information pair**
+- [X] **A list of card pairs is created**
+- [X] **Clicking on the card shows the corresponding component of the information pair**
+- [X] **Clicking the next button displays a random new card**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
+- [X] Cards contains images in addition to or in place of text
 - [ ] Cards have different visual styles such as color based on their category
   - [ ] *visual style implemented*
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] Add card flipping animation on click.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Project2Demo.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
+GIF created with LiceCAP
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+While building this app, starting was the hardest. I was not sure which variable should be a state variable and which ones shouldn't. I took it one step at a time, first creating the card, the taking care of what happenes when the user clicks next button. And then I created the boolean that keeps track of when the card is fliped or not fliped. I struggled with animating the flip on the card but after some research, I got it to work. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Hafsa Sarker]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
